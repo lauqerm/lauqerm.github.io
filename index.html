@@ -54,6 +54,18 @@
             border-bottom: 1px solid #0065bb;
             -webkit-margin-before: 0.2em;
             margin-block-start: 0.2em;
+            -webkit-margin-end: 0.15em;
+            margin-block-end: 0.15em;
+        }
+
+        h4 {
+            display: inline-block;
+            font-weight: normal;
+            color: #2d8bd8;
+            -webkit-margin-before: 0.1em;
+            margin-block-start: 0.1em;
+            -webkit-margin-end: 0.1em;
+            margin-block-end: 0.1em;
         }
 
         p {
@@ -144,6 +156,21 @@
             color: #8a8a8a;
             margin-bottom: 0.25rem;
         }
+
+        ul.short-list {
+            list-style-type: circle;
+            margin-inline-start: 0;
+            margin-inline-end: 0;
+        }
+
+        ul.short-list p {
+            margin: 0;
+        }
+
+        .list-label {
+            display: inline-block;
+            width: 6rem;
+        }
     </style>
 </head>
 
@@ -167,6 +194,19 @@
                         <label>Mobile</label>
                         <div>077 546 3522</div>
                     </div>
+                </summary>
+                <summary>
+                    <h2>
+                        Link
+                    </h2>
+                    <ul class="short-list">
+                        <li>
+                            <p>
+                                <b>Github</b><br />
+                                <a href="https://github.com/lauqerm">https://github.com/lauqerm</a>
+                            </p>
+                        </li>
+                    </ul>
                 </summary>
                 <summary>
                     <h2>
@@ -194,7 +234,6 @@
                         Role: Front-End Developer<br />
                     <ul>
                         <li>Technical Consultant</li>
-                        <li>UI / UX Consultant</li>
                         <li>Web-apps Development</li>
                     </ul>
                     </p>
@@ -206,15 +245,31 @@
                 <h2>
                     About myself
                 </h2>
+                <p>
+                    Introvert at heart but still pretty sociable. For coding, I always try to sort out things and implement a new approach (but rarely have time for that), I also has a habit of shorten code line, sometime too much and make it hard to comment after. I like to play video game and learn random knowledge, does not play sport in general.
+                </p>
             </article>
             <article>
                 <h2>
                     Honors & Awards
                 </h2>
+                <ul>
+                    <li>National ACM ICPC 2017: Contestant</li>
+                    <li>Danang's Programming Contest with ACM/ICPC-Standard: First Prize</li>
+                    <li>DUT's Contest for Excellent Student: Consolation Prize</li>
+                </ul>
             </article>
-            <h2>
-                Skills & Certifications
-            </h2>
+            <article>
+                <h2>
+                    Skills & Certifications
+                </h2>
+                <h4>Front-End</h4>
+                <ul>
+                    <li>HTML5, CSS3, Javascript (ECMAScript 2020)</li>
+                    <li>Typescript</li>
+                    <li>Library: React (React 18)</li>
+                </ul>
+            </article>
             <article>
                 <h2>
                     Projects
@@ -223,11 +278,40 @@
                     <h3>
                         Work Projects
                     </h3>
+                    <p>
+                        <h4>At ABX/GoTECQ Vietnam</h4>
+                        <ul>
+                            <li>Interactive and Visualization Data Dashboard (for American Partner)</li>
+                            <li>Webapp Ecosystem for Healthcare Management (for American Partner)</li>
+                        </ul>
+                    </p>
                 </article>
                 <article>
                     <h3>
                         Personal Projects
                     </h3>
+                    <ul>
+                        <li>
+                            <p>
+                                <b class="list-label">Repo</b>: <a href="https://github.com/lauqerm/bezier-draw" target="_blank" rel="nofollower noreferrer">
+                                    https://github.com/lauqerm/bezier-draw
+                                </a><br />
+                                <u class="list-label">Online Page</u>: <a href="https://lauqerm.github.io/bezier-draw/" target="_blank" rel="nofollower noreferrer">
+                                    https://lauqerm.github.io/bezier-draw/
+                                </a><br />
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <b class="list-label">Repo</b>: <a href="https://github.com/lauqerm/ygocarder" target="_blank" rel="nofollower noreferrer">
+                                    https://github.com/lauqerm/ygocarder
+                                </a><br />
+                                <u class="list-label">Online Page</u>: <a href="https://lauqerm.github.io/ygocarder/" target="_blank" rel="nofollower noreferrer">
+                                    https://lauqerm.github.io/ygocarder/
+                                </a><br />
+                            </p>
+                        </li>
+                    </ul>
                 </article>
             </article>
         </section>
