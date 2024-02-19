@@ -38,6 +38,10 @@
             background-image: url('./img/noise.png');
         }
 
+        label {
+            font-weight: bold;
+        }
+
         h2 {
             font-weight: bold;
             color: #0091d8;
@@ -51,7 +55,6 @@
             display: inline-block;
             font-weight: normal;
             color: #47acde;
-            border-bottom: 1px solid #0065bb;
             -webkit-margin-before: 0.2em;
             margin-block-start: 0.2em;
             -webkit-margin-end: 0.15em;
@@ -197,7 +200,7 @@
                 </summary>
                 <summary>
                     <h2>
-                        Link
+                        Related Links
                     </h2>
                     <ul class="short-list">
                         <li>
@@ -217,9 +220,9 @@
                         <time>July 2014 - July 2019</time>
                     </div>
                     <p>
-                        Major: IT<br />
-                        Graduation: ...<br />
-                        GPA: ...<br />
+                        <b>Major</b>: IT<br />
+                        <b>Graduation</b>: Good<br />
+                        <b>GPA</b>: 8.15 / 10<br />
                     </p>
                 </summary>
                 <summary>
@@ -227,15 +230,11 @@
                         Work Experience
                     </h2>
                     <div class="period">
-                        <strong>GoTECQ Vietnam CO.,LTD</strong>
+                        <strong>GoTECQ Vietnam CO.,LTD</strong> (formerly ABX)
                         <time>Aug 2019 - Now</time>
                     </div>
                     <p>
-                        Role: Front-End Developer<br />
-                    <ul>
-                        <li>Technical Consultant</li>
-                        <li>Web-apps Development</li>
-                    </ul>
+                        Role: Front-End Developer, Team Manager
                     </p>
                 </summary>
             </div>
@@ -246,28 +245,23 @@
                     About myself
                 </h2>
                 <p>
-                    Introvert at heart but still pretty sociable. For coding, I always try to sort out things and implement a new approach (but rarely have time for that), I also has a habit of shorten code line, sometime too much and make it hard to comment after. I like to play video game and learn random knowledge, does not play sport in general.
+                    Introvert at heart but still pretty sociable. For coding, I always try to sort out things and implement a new approach (but rarely have time for that). I also has a habit of shorten my code, sometime go overboard and make it unneccesary hard for my future self 6 months after. I like to play video game and learn random knowledge.
                 </p>
-            </article>
-            <article>
-                <h2>
-                    Honors & Awards
-                </h2>
-                <ul>
-                    <li>National ACM ICPC 2017: Contestant</li>
-                    <li>Danang's Programming Contest with ACM/ICPC-Standard: First Prize</li>
-                    <li>DUT's Contest for Excellent Student: Consolation Prize</li>
-                </ul>
             </article>
             <article>
                 <h2>
                     Skills & Certifications
                 </h2>
-                <h4>Front-End</h4>
+                <h3>Front-End</h4>
                 <ul>
-                    <li>HTML5, CSS3, Javascript (ECMAScript 2020)</li>
-                    <li>Typescript</li>
-                    <li>Library: React (React 18)</li>
+                    <li><b>React, Typescript</b>: 5 years of working experience</li>
+                    <li><b>NextJS</b>: 2 years of working experience</li>
+                </ul>
+                <h3>General Coding</h3>
+                <ul>
+                    <li><b>LeetCode</b>: <a href="https://leetcode.com/lauqerm" target="_blank" rel="nofollower noreferrer">
+                        https://leetcode.com/lauqerm
+                    </a></li>
                 </ul>
             </article>
             <article>
@@ -279,10 +273,32 @@
                         Work Projects
                     </h3>
                     <p>
-                        <h4>At ABX/GoTECQ Vietnam</h4>
+                        <h4>At GoTECQ Vietnam</h4>
                         <ul>
-                            <li>Interactive and Visualization Data Dashboard (for American Partner)</li>
-                            <li>Webapp Ecosystem for Healthcare Management (for American Partner)</li>
+                            <li>
+                                <b>Interactive and Visualization Data Dashboard</b> (for Koan Health)
+                                <ul>
+                                    <li>Scope: 1 Webapp</li>
+                                    <li>Technology Used: React, antd</li>
+                                    <li>My role: Front-End Developer</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>Healthcare Management System</b> (for TECQFoudation)
+                                <ul>
+                                    <li>Scope: 25+ Webapps</li>
+                                    <li>Technology Used: React, Typescript, antd</li>
+                                    <li>My role: Front-End Team Manager (8 people), Technical Leader, Front-End Developer</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>GoTECQ's Internal Front-End Libraries</b>
+                                <ul>
+                                    <li>Scope: 25+ Libraries</li>
+                                    <li>Technology Used: React, Typescript, antd</li>
+                                    <li>My role: Project Owner, Technical Leader, Developer</li>
+                                </ul>
+                            </li>
                         </ul>
                     </p>
                 </article>
@@ -292,27 +308,63 @@
                     </h3>
                     <ul>
                         <li>
-                            <p>
-                                <b class="list-label">Repo</b>: <a href="https://github.com/lauqerm/bezier-draw" target="_blank" rel="nofollower noreferrer">
+                            Bézier Curve Drawer: A playground that help visualize the shape and construction step of an arbitrary Bézier curve.
+                            <ul>
+                                <li>
+                                    <b class="list-label">Repo</b>: <a href="https://github.com/lauqerm/bezier-draw" target="_blank" rel="nofollower noreferrer">
                                     https://github.com/lauqerm/bezier-draw
-                                </a><br />
-                                <u class="list-label">Online Page</u>: <a href="https://lauqerm.github.io/bezier-draw/" target="_blank" rel="nofollower noreferrer">
-                                    https://lauqerm.github.io/bezier-draw/
-                                </a><br />
-                            </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <b class="list-label">Online Page</b>: <a href="https://lauqerm.github.io/bezier-draw/" target="_blank" rel="nofollower noreferrer">
+                                        https://lauqerm.github.io/bezier-draw/
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
-                            <p>
-                                <b class="list-label">Repo</b>: <a href="https://github.com/lauqerm/ygocarder" target="_blank" rel="nofollower noreferrer">
-                                    https://github.com/lauqerm/ygocarder
-                                </a><br />
-                                <u class="list-label">Online Page</u>: <a href="https://lauqerm.github.io/ygocarder/" target="_blank" rel="nofollower noreferrer">
-                                    https://lauqerm.github.io/ygocarder/
-                                </a><br />
-                            </p>
+                            YGO Carder: A Yu-gi-oh cardmaker app with high fidelity template that nearly mimic official card quality.
+                            <ul>
+                                <li>
+                                    <b class="list-label">Repo</b>: <a href="https://github.com/lauqerm/ygocarder" target="_blank" rel="nofollower noreferrer">
+                                        https://github.com/lauqerm/ygocarder
+                                    </a>
+                                </li>
+                                <li>
+                                    <b class="list-label">Online Page</b>: <a href="https://lauqerm.github.io/ygocarder/" target="_blank" rel="nofollower noreferrer">
+                                        https://lauqerm.github.io/ygocarder/
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            YGO Boarder: A Yu-gi-oh board app that allows deck building and gameplay simulation with both official card pool and custom cards
+                            <ul>
+                                <li>
+                                    <b class="list-label">Repo</b>: <a href="https://github.com/lauqerm/ygoboardeer" target="_blank" rel="nofollower noreferrer">
+                                        https://github.com/lauqerm/ygoboardeer
+                                    </a>
+                                </li>
+                                <li>
+                                    <b class="list-label">Online Page</b>: <a href="https://lauqerm.github.io/ygoboardeer/" target="_blank" rel="nofollower noreferrer">
+                                        https://lauqerm.github.io/ygoboardeer/
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </article>
+            </article>
+            <article>
+                <h2>
+                    Honors & Awards
+                </h2>
+                <ul>
+                    <li>National ACM ICPC 2017 (ICPC format): Contestant</li>
+                    <li>Danang IT Talent 2017 (ICPC format): First Prize</li>
+                    <li>DUT's Contest for Excellent Student (IOI format): Consolation Prize</li>
+                    <li>Da Nang Code League 2023 - Code Master Category (ICPC format): Finalist</li>
+                </ul>
             </article>
         </section>
     </div>
